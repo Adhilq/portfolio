@@ -267,9 +267,9 @@
                   </div>
 
                   <div class="profile-meta-item">
-                    <span class="meta-label">Production Platform Built</span>
+                    <span class="meta-label">Core Specialization</span>
                     <div class="meta-value">
-                      FixPro (HAM-IMS) Clinical Asset System &bull; Next.js 14, WebSockets &amp; Prisma
+                      SOC Operations, SIEM Threat Hunting &amp; Vulnerability Assessment
                     </div>
                   </div>
                 </div>
@@ -402,52 +402,52 @@
 
           <div class="projects-grid">
 
-            <!-- Featured Large Card: FixPro HAM-IMS -->
-            <div class="project-card-featured reveal" data-category="fullstack">
+            <!-- Featured Large Card: Enterprise SOC Monitoring Lab (Wazuh SIEM) -->
+            <div class="project-card-featured reveal" data-category="soc">
               <div class="project-content">
                 <div class="project-meta-top">
-                  <span class="badge badge-cyan">FLAGSHIP FULL-STACK PLATFORM</span>
-                  <span class="badge badge-emerald">HOSPITAL INFRASTRUCTURE</span>
-                  <span class="project-period">07/2026 &ndash; 09/2026</span>
+                  <span class="badge badge-cyan">FLAGSHIP DEFENSIVE LAB</span>
+                  <span class="badge badge-emerald">SIEM TELEMETRY &amp; INVESTIGATION</span>
+                  <span class="project-period">03/2026 &ndash; 03/2026</span>
                 </div>
 
                 <div>
-                  <h3 class="project-title">FixPro &mdash; Hospital Asset & Issue Management System (HAM-IMS)</h3>
-                  <div class="project-tagline">Full-Stack Clinical Asset Tracking & Real-Time Issue Dispatching Platform</div>
+                  <h3 class="project-title">Enterprise SOC Monitoring Lab using Wazuh SIEM</h3>
+                  <div class="project-tagline">Multi-Tier Threat Detection, Log Telemetry &amp; Attack Simulation</div>
                 </div>
 
                 <ul class="project-bullets">
                   <li>
-                    <strong>Full-Stack Architecture:</strong> Engineered a robust clinical equipment maintenance and work order dispatching platform utilizing <strong>Next.js 14 (App Router)</strong>, <strong>TypeScript</strong>, <strong>Node.js / Express</strong>, and <strong>Prisma ORM</strong>.
+                    <strong>SOC Architecture Deployment:</strong> Built a dedicated Security Operations Center lab on <strong>WSL (Windows Subsystem for Linux)</strong> on Windows 11, deploying Wazuh Manager, Indexer, and Dashboard.
                   </li>
                   <li>
-                    <strong>Real-Time Dispatch & SLA Countdown Engine:</strong> Built a live ticket dispatching engine with <strong>WebSockets (Socket.io)</strong> and an automated countdown timer with visual threshold warnings and breach alerts for critical biomedical equipment.
+                    <strong>Endpoint Instrumentation &amp; Agent Enrollment:</strong> Installed and configured Wazuh Agents across Windows endpoints to ingest real-time security events and system telemetry.
                   </li>
                   <li>
-                    <strong>Role-Based Access Control (RBAC):</strong> Enforced granular permission matrices across clinical reporters, biomedical technicians, department supervisors, and hospital admins with secure JWT authentication.
+                    <strong>Adversary Attack Simulation:</strong> Simulated aggressive reconnaissance and attack vectors using <strong>Kali Linux</strong> tools including <strong>Nmap</strong> (port scanning, service enumeration) and <strong>Hydra</strong> (network brute-force attacks).
                   </li>
                   <li>
-                    <strong>Asset Lifecycle & QR Tracking:</strong> Engineered end-to-end medical asset tracking with maintenance logs, warranty monitoring, department allocations, and camera QR code scanning.
+                    <strong>Brute-Force Threat Detection:</strong> Captured and correlated Windows Security Event Logs (Event ID 4625 logon failures) to pinpoint unauthorized brute-force attempts and anomalous privilege escalations.
                   </li>
                   <li>
-                    <strong>Data Integrity & Audit Trails:</strong> Designed normalized relational database schemas with transactional cascade operations, comprehensive immutable audit trails, and multi-device LAN deployment managed via <strong>PM2</strong>.
+                    <strong>Rule Query Tuning &amp; Dashboard Analytics:</strong> Formulated custom query filters on the Wazuh Dashboard to separate benign background noise from verified security incidents and active intrusions.
                   </li>
                 </ul>
 
                 <div class="project-stack-tags">
-                  <span class="badge">Next.js 14</span>
-                  <span class="badge">TypeScript</span>
-                  <span class="badge">Node.js</span>
-                  <span class="badge">Prisma ORM</span>
-                  <span class="badge">Socket.io</span>
-                  <span class="badge">JWT</span>
-                  <span class="badge">PM2</span>
-                  <span class="badge">PostgreSQL</span>
+                  <span class="badge">Wazuh SIEM</span>
+                  <span class="badge">WSL Ubuntu</span>
+                  <span class="badge">Windows 11</span>
+                  <span class="badge">Kali Linux</span>
+                  <span class="badge">Nmap</span>
+                  <span class="badge">Hydra</span>
+                  <span class="badge">Event ID 4625</span>
+                  <span class="badge">Sysmon</span>
                 </div>
 
                 <div style="margin-top: 10px;">
-                  <button class="btn btn-primary btn-sm open-modal-btn" data-project="fixpro">
-                    <span>Inspect System Architecture</span>
+                  <button class="btn btn-primary btn-sm open-modal-btn" data-project="wazuh">
+                    <span>Inspect SOC Architecture &amp; Rules</span>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   </button>
                 </div>
@@ -457,122 +457,36 @@
               <div class="project-visual-preview">
                 <div class="tech-schematic">
                   <div class="schematic-header">
-                    <span class="schematic-title">HAM-IMS SYSTEM TELEMETRY FLOW</span>
-                    <span class="badge badge-emerald">ACTIVE</span>
+                    <span class="schematic-title">SOC INCIDENT TELEMETRY FLOW</span>
+                    <span class="badge badge-emerald">ACTIVE MONITORED</span>
                   </div>
                   <div class="schematic-flow">
                     <div class="schematic-node">
-                      <span class="schematic-node-name">Client Layer (Hospital LAN)</span>
-                      <span class="schematic-node-spec">QR Scanner &bull; Web App</span>
+                      <span class="schematic-node-name">Adversary Attack Node</span>
+                      <span class="schematic-node-spec">Kali Linux &bull; Nmap / Hydra</span>
                     </div>
-                    <div class="schematic-connector">&darr; Next.js 14 App Router</div>
+                    <div class="schematic-connector">&darr; Brute-Force &amp; Recon Packets</div>
                     <div class="schematic-node">
-                      <span class="schematic-node-name">WebSockets Dispatch Engine</span>
-                      <span class="schematic-node-spec">Live SLA Monitor (Socket.io)</span>
+                      <span class="schematic-node-name">Target Endpoints &amp; Agents</span>
+                      <span class="schematic-node-spec">Windows 11 &bull; Event 4625</span>
                     </div>
-                    <div class="schematic-connector">&darr; Granular RBAC / JWT Auth</div>
+                    <div class="schematic-connector">&darr; Wazuh Agent Log Forwarding</div>
                     <div class="schematic-node">
-                      <span class="schematic-node-name">Relational Database & ORM</span>
-                      <span class="schematic-node-spec">Prisma ORM &bull; Audit Trails</span>
+                      <span class="schematic-node-name">SIEM Engine &amp; Indexer</span>
+                      <span class="schematic-node-spec">WSL Ubuntu &bull; Decoder Rules</span>
                     </div>
-                    <div class="schematic-connector">&darr; Host Infrastructure</div>
+                    <div class="schematic-connector">&darr; Triage &amp; Alerts Correlation</div>
                     <div class="schematic-node">
-                      <span class="schematic-node-name">Cluster Management</span>
-                      <span class="schematic-node-spec">PM2 Daemon Process</span>
+                      <span class="schematic-node-name">SOC Dashboard</span>
+                      <span class="schematic-node-spec">Real-Time Threat Analytics</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- Project 2: Wazuh SOC Lab -->
-            <div class="project-card cyber-card reveal" data-category="soc">
-              <div class="project-meta-top">
-                <span class="badge badge-cyan">DEFENSIVE SECURITY</span>
-                <span class="badge badge-emerald">SIEM INVESTIGATION</span>
-                <span class="project-period">03/2026 &ndash; 03/2026</span>
-              </div>
-
-              <h3 class="project-title" style="font-size: 1.35rem;">SOC Monitoring Lab using Wazuh SIEM</h3>
-              <div class="project-tagline">Multi-Tier Threat Detection, Log Telemetry & Attack Simulation</div>
-
-              <ul class="project-bullets">
-                <li>
-                  <strong>SOC Architecture Deployment:</strong> Built a dedicated Security Operations Center lab on <strong>WSL (Windows Subsystem for Linux)</strong> on Windows 11, deploying Wazuh Manager, Indexer, and Dashboard.
-                </li>
-                <li>
-                  <strong>Endpoint Instrumentation:</strong> Installed and enrolled Wazuh Agents on target Windows endpoints to capture real-time security events.
-                </li>
-                <li>
-                  <strong>Adversary Attack Simulation:</strong> Simulated aggressive reconnaissance and attack vectors using <strong>Kali Linux</strong> tools including <strong>Nmap</strong> and <strong>Hydra</strong>.
-                </li>
-                <li>
-                  <strong>Brute-Force Detection:</strong> Captured and correlated Windows Security Event Logs (Event ID 4625 logon failures) to pinpoint unauthorized brute-force attempts.
-                </li>
-                <li>
-                  <strong>Dashboard Analysis:</strong> Formulated query filters on the Wazuh Dashboard to separate false positives from verified security incidents.
-                </li>
-              </ul>
-
-              <div class="project-stack-tags">
-                <span class="badge">Wazuh SIEM</span>
-                <span class="badge">WSL Ubuntu</span>
-                <span class="badge">Windows 11</span>
-                <span class="badge">Kali Linux</span>
-                <span class="badge">Nmap</span>
-                <span class="badge">Hydra</span>
-                <span class="badge">Event Logs</span>
-              </div>
-
-              <div style="margin-top: auto; padding-top: 14px;">
-                <button class="btn btn-secondary btn-sm open-modal-btn" data-project="wazuh">
-                  <span>Deep Dive Detection Rules</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Project 3: Face Recognized Attendance System -->
-            <div class="project-card cyber-card reveal reveal-delay-1" data-category="research">
-              <div class="project-meta-top">
-                <span class="badge badge-cyan">BIOMETRIC SECURITY</span>
-                <span class="badge badge-amber">COMPUTER VISION</span>
-                <span class="project-period">06/2024 &ndash; 03/2025</span>
-              </div>
-
-              <h3 class="project-title" style="font-size: 1.35rem;">Face Recognized Attendance System</h3>
-              <div class="project-tagline">Automated Biometric Real-Time Verification Platform</div>
-
-              <ul class="project-bullets">
-                <li>
-                  <strong>Biometric Verification:</strong> Developed an automated attendance solution utilizing face recognition algorithms to identify authorized individuals in real time.
-                </li>
-                <li>
-                  <strong>Precision & Fraud Reduction:</strong> Replaced vulnerable manual attendance sheets with camera-based biometric logging, eliminating buddy punching and human recording errors.
-                </li>
-                <li>
-                  <strong>Live Database Sync:</strong> Recorded timestamps and entry logs into a structured database with instant administrative lookup and reporting features.
-                </li>
-              </ul>
-
-              <div class="project-stack-tags">
-                <span class="badge">Python</span>
-                <span class="badge">OpenCV</span>
-                <span class="badge">Face Recognition</span>
-                <span class="badge">Biometrics</span>
-                <span class="badge">SQLite</span>
-              </div>
-
-              <div style="margin-top: auto; padding-top: 14px;">
-                <button class="btn btn-secondary btn-sm open-modal-btn" data-project="attendance">
-                  <span>View Technical Details</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Project 4: CTF Machine Penetration Testing -->
-            <div class="project-card cyber-card reveal reveal-delay-2" data-category="research">
+            <!-- Project 2: CTF Machine Penetration Testing -->
+            <div class="project-card cyber-card reveal" data-category="research">
               <div class="project-meta-top">
                 <span class="badge badge-emerald">OFFENSIVE LABS</span>
                 <span class="badge badge-indigo">TRYHACKME</span>
@@ -580,7 +494,7 @@
               </div>
 
               <h3 class="project-title" style="font-size: 1.35rem;">CTF-Machine Penetration Testing</h3>
-              <div class="project-tagline">Hands-on Exploitation, Privilege Escalation & Vulnerability Writeups</div>
+              <div class="project-tagline">Hands-on Exploitation, Privilege Escalation &amp; Vulnerability Writeups</div>
 
               <ul class="project-bullets">
                 <li>
@@ -605,6 +519,85 @@
               <div style="margin-top: auto; padding-top: 14px;">
                 <button class="btn btn-secondary btn-sm open-modal-btn" data-project="ctf">
                   <span>View Exploitation Notes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Project 3: FixPro HAM-IMS -->
+            <div class="project-card cyber-card reveal reveal-delay-1" data-category="fullstack">
+              <div class="project-meta-top">
+                <span class="badge badge-cyan">FULL-STACK PLATFORM</span>
+                <span class="badge badge-amber">HOSPITAL ASSETS</span>
+                <span class="project-period">07/2026 &ndash; 09/2026</span>
+              </div>
+
+              <h3 class="project-title" style="font-size: 1.35rem;">FixPro &mdash; Clinical Asset &amp; Issue Dispatching (HAM-IMS)</h3>
+              <div class="project-tagline">Healthcare Infrastructure Tracking &amp; SLA Management</div>
+
+              <ul class="project-bullets">
+                <li>
+                  <strong>Full-Stack Architecture:</strong> Engineered a hospital equipment tracking system using <strong>Next.js 14 (App Router)</strong>, <strong>TypeScript</strong>, <strong>Node.js / Express</strong>, and <strong>Prisma ORM</strong>.
+                </li>
+                <li>
+                  <strong>Real-Time SLA Engine:</strong> Built live incident dispatching with <strong>WebSockets (Socket.io)</strong> and automated SLA countdown warnings for critical biomedical devices.
+                </li>
+                <li>
+                  <strong>Granular RBAC:</strong> Implemented role-based access control across clinical staff, biomedical engineers, and supervisors with secure JWT authentication.
+                </li>
+              </ul>
+
+              <div class="project-stack-tags">
+                <span class="badge">Next.js 14</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">Prisma ORM</span>
+                <span class="badge">Socket.io</span>
+                <span class="badge">RBAC</span>
+                <span class="badge">PM2</span>
+              </div>
+
+              <div style="margin-top: auto; padding-top: 14px;">
+                <button class="btn btn-secondary btn-sm open-modal-btn" data-project="fixpro">
+                  <span>Inspect System Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Project 4: Face Recognized Attendance System -->
+            <div class="project-card cyber-card reveal reveal-delay-2" data-category="research">
+              <div class="project-meta-top">
+                <span class="badge badge-cyan">BIOMETRIC SECURITY</span>
+                <span class="badge badge-amber">COMPUTER VISION</span>
+                <span class="project-period">06/2024 &ndash; 03/2025</span>
+              </div>
+
+              <h3 class="project-title" style="font-size: 1.35rem;">Face Recognized Attendance System</h3>
+              <div class="project-tagline">Automated Biometric Real-Time Verification Platform</div>
+
+              <ul class="project-bullets">
+                <li>
+                  <strong>Biometric Verification:</strong> Developed an automated attendance solution utilizing face recognition algorithms to identify authorized individuals in real time.
+                </li>
+                <li>
+                  <strong>Precision &amp; Fraud Reduction:</strong> Replaced vulnerable manual attendance sheets with camera-based biometric logging, eliminating buddy punching and recording errors.
+                </li>
+                <li>
+                  <strong>Live Database Sync:</strong> Recorded timestamps and entry logs into a structured database with instant administrative lookup and reporting features.
+                </li>
+              </ul>
+
+              <div class="project-stack-tags">
+                <span class="badge">Python</span>
+                <span class="badge">OpenCV</span>
+                <span class="badge">Face Recognition</span>
+                <span class="badge">Biometrics</span>
+                <span class="badge">SQLite</span>
+              </div>
+
+              <div style="margin-top: auto; padding-top: 14px;">
+                <button class="btn btn-secondary btn-sm open-modal-btn" data-project="attendance">
+                  <span>View Technical Details</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 </button>
               </div>

@@ -1,5 +1,7 @@
 # Muhammed Adhil A — Professional Cybersecurity Portfolio
 
+🌐 **Live Website**: [https://adhilq.github.io/portfolio/](https://adhilq.github.io/portfolio/)
+
 A high-performance, handcrafted portfolio website designed for **Muhammed Adhil A** (Cybersecurity Researcher, SOC Analyst, Certified Ethical Hacker).
 
 Built with a bespoke **SOC & Cyber Threat Intelligence aesthetic**, subtle interactive animations, a verified security profile card, comprehensive project deep-dive modals, and zero generic "AI template" cliches.
@@ -16,7 +18,7 @@ Run the included Node.js local preview server:
 ```bash
 node preview.js
 ```
-Then navigate to: **http://localhost:3000** in your browser.
+Then navigate to: **http://localhost:8080** in your browser.
 
 ---
 
@@ -47,10 +49,10 @@ muhammed-adhil-portfolio/
    - Clean, executive credential card showcasing EC-Council CEH, Certified SOC Analyst, active IT support engagement at Sevana Hospital, and Wazuh telemetry.
 
 3. **In-Depth Case Studies**:
+   - **Enterprise SOC Monitoring Lab (Wazuh SIEM)**: Multi-tier SIEM architecture on WSL Windows 11, Kali Linux attack simulation (Nmap, Hydra), Windows Event Logs (Event ID 4625 brute-force detection), and dashboard query filters.
+   - **CTF Machine Penetration Testing**: TryHackMe penetration testing, Linux privilege escalation, and vulnerability assessment.
    - **FixPro (HAM-IMS)**: Full-Stack Clinical Asset Tracking & Real-Time Issue Dispatching Platform (Next.js 14, TypeScript, WebSockets SLA countdown engine, granular RBAC, QR equipment tracking, PM2).
-   - **Wazuh SOC Monitoring Lab**: Multi-tier SIEM architecture on WSL Windows 11, Kali attack simulation (Nmap, Hydra), Windows Event Logs (Event ID 4625 brute-force detection), and dashboard query filters.
    - **Face Recognized Attendance System**: Real-time biometric verification using OpenCV & computer vision.
-   - **CTF Machine Exploitation**: TryHackMe penetration testing, Linux privilege escalation, and vulnerability assessment.
 
 4. **Interactive Arsenal & Tooling**:
    - Filterable tools by domain (SIEM & Defense, Offensive & Pentesting, Network & Forensics, Systems & Dev).
