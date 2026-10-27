@@ -8,17 +8,14 @@ Built with a bespoke **SOC & Cyber Threat Intelligence aesthetic**, subtle inter
 
 ---
 
-## 🚀 Quick Preview & Running Locally
+## 🚀 Live Portfolio & Offline Viewing
 
-### Option 1: Direct File Open (Zero Dependencies)
-You can directly double-click `index.html` to open it in any web browser (Google Chrome, Microsoft Edge, Brave, Firefox). All CSS, JS, and vector SVG graphics are 100% self-contained.
+### 🌐 Live Website
+Visit the published portfolio online at:  
+👉 **[https://adhilq.github.io/portfolio/](https://adhilq.github.io/portfolio/)**
 
-### Option 2: Local HTTP Server (Recommended)
-Run the included Node.js local preview server:
-```bash
-node preview.js
-```
-Then navigate to: **http://localhost:8080** in your browser.
+### 💻 Offline File Access (Zero Dependencies)
+Double-click `index.html` to open the full portfolio directly in any web browser (Google Chrome, Microsoft Edge, Brave, Firefox). All CSS, JavaScript, and vector icons are 100% self-contained.
 
 ---
 
